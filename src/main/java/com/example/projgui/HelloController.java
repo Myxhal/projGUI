@@ -47,6 +47,7 @@ public class HelloController {
 
 
 
+
     @FXML
     private DatePicker datePicker;
 
@@ -60,6 +61,8 @@ public class HelloController {
     private Button openButtonOne, closeButtonOne, clearButtonOne;
     @FXML
     private TextArea tabOneTextArea;
+
+
 
 
 
