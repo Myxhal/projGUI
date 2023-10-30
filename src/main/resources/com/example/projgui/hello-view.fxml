@@ -20,7 +20,7 @@
    <top>
       <TabPane prefHeight="350.0" prefWidth="650.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
         <tabs>
-          <Tab text="Open/Deposit">
+          <Tab text="Open/Close">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
