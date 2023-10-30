@@ -47,7 +47,7 @@
                               <TextField fx:id="fNameFieldOne" GridPane.columnIndex="1" />
                               <TextField fx:id="lNameFieldOne" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                               <TextField fx:id="balanceField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                              <DatePicker GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <DatePicker fx:id="datePicker" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                               <GridPane GridPane.columnIndex="1" GridPane.rowIndex="4">
                                 <columnConstraints>
                                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

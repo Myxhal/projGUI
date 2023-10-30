@@ -8,6 +8,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.control.DatePicker;
 
 public class HelloController {
     @FXML
@@ -19,87 +20,35 @@ public class HelloController {
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to JavaFX Application!");
     }
-    @FXML
-    private TextField amountTwo;
 
     @FXML
-    private TextField balanceField;
+    private TextField fNameFieldOne, lNameFieldOne, balanceField;
 
     @FXML
-    private RadioButton cCheckingTwo;
+    private DatePicker datePicker;
 
     @FXML
-    private RadioButton camdenOne;
-
+    private RadioButton checkingButtonOne, collegeCheckingButtonOne, savingsButtonOne, moneyMarketButtonOne;
     @FXML
-    private RadioButton checkingButtonOne;
-
-    @FXML
-    private RadioButton checkingTwo;
-
-    @FXML
-    private Button clearButtonOne;
-
-    @FXML
-    private Button closeButtonOne;
-
-    @FXML
-    private RadioButton collegeCheckingButtonOne;
-
-    @FXML
-    private Button depositTwo;
-
-    @FXML
-    private TextField fNameFieldOne;
-
-    @FXML
-    private TextField fNameTwo;
-
+    private RadioButton camdenOne, newarkOne, nbOne;
     @FXML
     private CheckBox isLoyalOne;
-
     @FXML
-    private TextField lNameFieldOne;
-
-    @FXML
-    private TextField lNameTwo;
-
-    @FXML
-    private Button loadAccountsThree;
-
-    @FXML
-    private RadioButton mMarketTwo;
-
-    @FXML
-    private RadioButton moneyMarketButtonOne;
-
-    @FXML
-    private RadioButton nbOne;
-
-    @FXML
-    private RadioButton newarkOne;
-
-    @FXML
-    private Button openButtonOne;
-
-    @FXML
-    private Button printAccThree;
-
-    @FXML
-    private Button printInterestThree;
-
-    @FXML
-    private RadioButton savingsButtonOne;
-
-    @FXML
-    private RadioButton savingsTwo;
-
+    private Button openButtonOne, closeButtonOne, clearButtonOne;
     @FXML
     private TextArea tabOneTextArea;
 
-    @FXML
-    private Button updateAccountsThree;
+
 
     @FXML
-    private Button withdrawlTwo;
+    private TextField fNameTwo, lNameTwo, amountTwo;
+    @FXML
+    private RadioButton mMarketTwo, savingsTwo, checkingTwo, cCheckingTwo;
+    @FXML
+    private Button depositTwo, withdrawlTwo;
+
+
+
+    @FXML
+    private Button printAccThree, loadAccountsThree, printInterestThree, updateAccountsThree;
 }
