@@ -3,7 +3,6 @@ package com.example.projgui;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.RadioButton;
@@ -11,14 +10,15 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.DatePicker;
 
+import java.time.LocalDate;
 import java.util.Date;
 
-public class HelloController {
+public class TransactionManagerController {
     @FXML
     private Label welcomeText;
     private String firstName;
     private String lastName;
-    private Date dob;
+    private LocalDate dob;
     //mychal
     //dennis
 
@@ -38,9 +38,9 @@ public class HelloController {
         String fName = fNameFieldOne.getText();
         String lName = lNameFieldOne.getText();
         double intBalance = Integer.parseInt(balanceField.getText());
-        Date date = datePicker.g
+        LocalDate date = datePicker.getValue();
     }
-    public void Profile(String firstname, String lastName, Date dob) {
+    public void Profile(String firstname, String lastName, LocalDate dob) {
         this.firstName = firstname;
         this.lastName = lastName;
         this.dob = dob;}
@@ -80,4 +80,3 @@ public class HelloController {
 
 
     }
-}
